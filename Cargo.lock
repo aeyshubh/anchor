@@ -195,7 +195,6 @@ dependencies = [
  "solana-sdk",
  "solang-parser",
  "syn 1.0.109",
- "tar",
  "toml 0.7.8",
  "walkdir",
 ]
@@ -1681,18 +1680,6 @@ name = "fiat-crypto"
 version = "0.2.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "28dea519a9695b9977216879a3ebfddf92f1c08c05d984f8996aecd6ecdc811d"
-
-[[package]]
-name = "filetime"
-version = "0.2.22"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d4029edd3e734da6fe05b6cd7bd2960760a616bd2ddd0d59a0124746d6272af0"
-dependencies = [
- "cfg-if",
- "libc",
- "redox_syscall 0.3.5",
- "windows-sys 0.48.0",
-]
 
 [[package]]
 name = "five8_const"
@@ -5794,17 +5781,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "tar"
-version = "0.4.40"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b16afcea1f22891c49a00c751c7b63b2233284064f11a200fc624137c51e2ddb"
-dependencies = [
- "filetime",
- "libc",
- "xattr",
-]
-
-[[package]]
 name = "task-local-extensions"
 version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -6643,15 +6619,6 @@ dependencies = [
  "rusticata-macros",
  "thiserror",
  "time",
-]
-
-[[package]]
-name = "xattr"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f4686009f71ff3e5c4dbcf1a282d0a44db3f021ba69350cd42086b3e5f1c6985"
-dependencies = [
- "libc",
 ]
 
 [[package]]
